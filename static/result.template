@@ -81,7 +81,7 @@ body {
 </head>
 <body>
 	<div class="main">
-<b>Metropoline bus times for bus stop: 37119
+<b>Metropoline bus times for bus stop: {{ busstop }} 
 	<br>
 	<script>
 	document.write('Current Time ');
