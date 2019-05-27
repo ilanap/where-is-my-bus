@@ -19,7 +19,7 @@ before_install:
 - mkdir -p lib
 - gcloud auth activate-service-account --key-file client-secret.json
 install:
-- gcloud config set project getMyBus
+- gcloud config set project getmybus-236207
 - pip install -r requirements.txt -t lib/
 script:
 - pytest
