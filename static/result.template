@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Bus Stop {{ busstop }}{% if bus %} {{bus}} {% endif %}</title>
+<script>
+var busTimes = {{ resultJson }};
+let allBusses = [];
+busTimes.forEach((bus) => {
+	bus.NextTimes.forEach((time) => {
+		if (time.IsRealTime) {
+			let timestamp = time.time.substring(time.time.indexOf('(') +1 , time.time.indexOf('+'))
+			let nextDate = new Date(parseInt(timestamp));
+			time.datetime = nextDate;
+			time.lineNumber = bus.lineNumber;
+			time.TravelingDirection = bus.TravelingDirection;
+			allBusses.push(time);
+		}
+	});
+});
+allBusses.sort(function(a, b) {
+  return a.datetime.getTime() - b.datetime.getTime();
+});
+function millisToMinutesAndSeconds(millis) {
+  var minutes = Math.floor(millis / 60000);
+  var seconds = ((millis % 60000) / 1000).toFixed(0);
+  return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+}
+function prettyPrintUnder10(value) {
+	let prefix = (value < 10) ? '0' : '';
+	return prefix + value;
+}
+const now = new Date();
+</script>
+<style>
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+	font-size: 25pt;
+  }
+}
+body {
+	font-family:Arial, sans-serif;
+}
+.main {	
+	float:left;
+	text-align: left;
+}
+.numberCircle {
+    width: 2em;
+    height: 2em;
+    box-sizing: initial;
+    color: white;
+    text-align: center;
+    border-radius: 50%;    
+    line-height: 2em;
+    font-weight: bold;
+    padding:5px;
+    box-sizing: content-box;   
+    
+	float:left;
+}
+.green {
+	background-color: LimeGreen;
+}
+.yellow {
+	background-color: DarkOrange;
+}
+.red {
+	background-color: crimson;
+}
+.bus {
+	 display:inline-block;
+	 padding : 5px;
+}
+.info {
+	float:right;
+	padding : 3px;
+	margin-left: 5px;
+}
+</style>
+<meta http-equiv="refresh" content="30">
+</head>
+<body>
+	<div class="main">
+<b>Metropoline bus times for bus stop: 37119
+	<br>
+	<script>
+	document.write('Current Time ');
+	document.write(now.getHours());
+	document.write(':');
+	document.write(now.getMinutes());
+		
+	</script>
+</b>
+<hr>
+<script>
+allBusses.forEach((bus) => {
+	let millisDiff = bus.datetime - now;
+	let defaultColor = 'green';
+	// only busses for next three hours
+	if (millisDiff  < 10800000) {
+		var minutes = Math.floor(millisDiff / 60000);
+	  	var seconds = ((millisDiff % 60000) / 1000).toFixed(0);
+		if (millisDiff > 0 && minutes < 15) {
+			defaultColor = 'yellow';
+		} else if (millisDiff < 0) {
+			defaultColor = 'red';		
+		}	
+		document.write('<div class="bus">');
+		document.write('<div class="info">');
+		
+		document.write(prettyPrintUnder10(bus.datetime.getHours()));
+		document.write(':');
+		document.write(prettyPrintUnder10(bus.datetime.getMinutes()));
+		document.write('<br>')
+		if (millisDiff < 0) {
+			document.write("Too late");		
+		} else {
+			document.write("Coming in: ");		
+			document.write(minutes);
+			document.write(':');
+			document.write(prettyPrintUnder10(seconds));
+		}
+		document.write('<br>')
+		document.write(bus.TravelingDirection);
+		document.write('</div>');
+		document.write('<div class="numberCircle ' + defaultColor + '">');
+		document.write(bus.lineNumber);
+		document.write('</div>');
+		document.write('</div><hr>');
+	}
+});
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,282 @@
+[
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036047380+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554037007380+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554038327380+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554039527380+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו רעננה",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "347",
+            "Makat": 10347,
+            "Route_Id": 0,
+            "TravelingDirection": "דפנה/התדהר,רעננה"
+        },
+        "Route_id": 10934,
+        "TravelingDirection": "דפנה/התדהר,רעננה",
+        "lineNumber": "347"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036047395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554040727395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554043787395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554122687395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו הוד השרון",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "248",
+            "Makat": 14248,
+            "Route_Id": 0,
+            "TravelingDirection": "השומר/חטיבת יפתח,הוד השרון"
+        },
+        "Route_id": 15107,
+        "TravelingDirection": "השומר/חטיבת יפתח,הוד השרון",
+        "lineNumber": "248"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036167395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036227395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036647395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554037247395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו כפר סבא",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "149",
+            "Makat": 12149,
+            "Route_Id": 0,
+            "TravelingDirection": "איזור התעשיה כפר סבא,כפר סבא"
+        },
+        "Route_id": 7719,
+        "TravelingDirection": "איזור התעשיה כפר סבא,כפר סבא",
+        "lineNumber": "149"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036227395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554037907395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554039767395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554041627395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו הוד השרון",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "249",
+            "Makat": 11249,
+            "Route_Id": 0,
+            "TravelingDirection": "הנשיאים/יצחק בן צבי,הוד השרון"
+        },
+        "Route_id": 10120,
+        "TravelingDirection": "הנשיאים/יצחק בן צבי,הוד השרון",
+        "lineNumber": "249"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036467395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554038987395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554039887395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554041867395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו רמת השרון",
+            "DirectionSelect": 1,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "24",
+            "Makat": 16024,
+            "Route_Id": 0,
+            "TravelingDirection": "מסוף קדמה,רמת השרון"
+        },
+        "Route_id": 22825,
+        "TravelingDirection": "מסוף קדמה,רמת השרון",
+        "lineNumber": "24"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554036527395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554039107395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554042707395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554046547395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו כפר סבא",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "148",
+            "Makat": 17148,
+            "Route_Id": 0,
+            "TravelingDirection": "מסוף שכונה ירוקה,כפר סבא"
+        },
+        "Route_id": 21698,
+        "TravelingDirection": "מסוף שכונה ירוקה,כפר סבא",
+        "lineNumber": "148"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554037427395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554046487395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "#",
+            "CitiesNames": "תל אביב יפו כוכב יאיר",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "349",
+            "Makat": 12349,
+            "Route_Id": 0,
+            "TravelingDirection": "דרך הפרחים/הדס,כוכב יאיר"
+        },
+        "Route_id": 15117,
+        "TravelingDirection": "דרך הפרחים/הדס,כוכב יאיר",
+        "lineNumber": "349"
+    },
+    {
+        "NextTimes": [
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554089087395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554089987395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554090887395+0300)/"
+            },
+            {
+                "IsRealTime": true,
+                "time": "/Date(1554091907395+0300)/"
+            }
+        ],
+        "RouteDetails": {
+            "Alternative": "1",
+            "CitiesNames": "תל אביב יפו כפר סבא",
+            "DirectionSelect": 2,
+            "Directions": [
+                1,
+                2
+            ],
+            "LineNumber": "149",
+            "Makat": 12149,
+            "Route_Id": 0,
+            "TravelingDirection": "איזור התעשיה כפר סבא,כפר סבא"
+        },
+        "Route_id": 7720,
+        "TravelingDirection": "איזור התעשיה כפר סבא,כפר סבא",
+        "lineNumber": "149"
+    }
+]
